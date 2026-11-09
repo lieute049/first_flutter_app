@@ -5,9 +5,19 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.green,
-        body: Center(
-          child: Text('Hello world!'),
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Colors.white,
+                Colors.blue,
+                Colors.red,
+              ],
+            ),
+          ),
+          child: Center(
+            child: Text('Hello world!'),
+          ),
         ),
       ),
     ),
