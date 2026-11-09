@@ -1,17 +1,44 @@
-# first_flutter_app
+# Flutter Lab3 — Hello World
 
-A new Flutter project.
+Простое Flutter-приложение с градиентным фоном и стилизованным текстом. Первый проект на Flutter.
 
-## Getting Started
+## Автор
 
-This project is a starting point for a Flutter application.
+Куксова Софья, ИСП-243
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Flutter:** 3.47.9 (stable)
+- **Dart:** 3.13.7
+- **Платформа:** Web (Edge)
+- **IDE:** VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот
+
+![Приложение](img/step9_Kuksova.png)
+
+## Запуск
+
+1. Клонировать репозиторий:
+   ```bash
+   git clone https://github.com/lieute049/first_flutter_app.git
+   ```
+2. Перейти в папку:
+   ```bash
+   cd first_flutter_app
+   ```
+3. Установить зависимости:
+   ```bash
+   flutter pub get
+   ```
+4. Запустить:
+   ```bash
+   flutter run -d edge
+   ```
+
+## Что изучили
+
+- структура Flutter-проекта
+- дерево виджетов: `MaterialApp → Scaffold → Container → Center → Text`
+- Hot Reload (`r`) и Hot Restart (`R`)
+- оформление: `Container`, `BoxDecoration`, `LinearGradient`, `TextStyle`
